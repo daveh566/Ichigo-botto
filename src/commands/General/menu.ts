@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         const mn=`
-🪆𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! 𝐈'𝐦 *𝙸𝚌𝚑𝚒𝚐𝚘-𝙱𝚘𝚝𝚝𝚘* , 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬..! 
+Heya! 𝐈'𝐦 *AspirerxBot* , 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬..! 
 🎋 𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐋𝐢𝐬𝐭𝐞𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 : -
 
 🎊 𝐅𝐔𝐍 🎊
@@ -148,7 +148,7 @@ export default class Command extends BaseCommand {
 💻 sᴛᴀᴛᴜs
 💻 ᴜɴʙᴀɴ
  
-𓊈𒆜𝐈𝐜𝐡𝐢𝐠𝐨-𝐁𝐨𝐭𝐭𝐨𒆜𓊉
+𓊈𒆜AspirerXBot2021𒆜𓊉
 `
         return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
